@@ -21,7 +21,10 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
 
 app.use((req, res, next) => {
-  let allowedOrigin = ["http://localhost:3000"];
+  let allowedOrigin = [
+    "http://localhost:3000",
+    "https://qa-data-vault.liftoffllc.in",
+  ];
   if (allowedOrigin.indexOf(req.headers.origin) != -1) {
     res.header("Access-Control-Allow-Origin", req.headers.origin);
     res.setHeader("Access-Control-Allow-Credentials", true);
