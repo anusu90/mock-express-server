@@ -24,6 +24,7 @@ app.use((req, res, next) => {
   let allowedOrigin = [
     "http://localhost:3000",
     "https://qa-data-vault.liftoffllc.in",
+    "https://data-vault-git-dv135-brand-state-liftoff.vercel.app",
   ];
   if (allowedOrigin.indexOf(req.headers.origin) != -1) {
     res.header("Access-Control-Allow-Origin", req.headers.origin);
