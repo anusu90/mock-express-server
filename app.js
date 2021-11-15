@@ -25,6 +25,7 @@ app.use((req, res, next) => {
     "http://localhost:3000",
     "https://qa-data-vault.liftoffllc.in",
     "https://data-vault-git-dv135-brand-state-liftoff.vercel.app",
+    "https://data-vault-git-dv134-branch-nested-route-liftoff.vercel.app",
   ];
   if (allowedOrigin.indexOf(req.headers.origin) != -1) {
     res.header("Access-Control-Allow-Origin", req.headers.origin);
