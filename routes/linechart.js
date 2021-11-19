@@ -82,6 +82,27 @@ var sampleResponse = {
       email_sent: Math.floor(Math.random() * max),
     },
   ],
+  aff_breakdown_upsells: [
+    { aff1: Math.floor(Math.random() * max) },
+    { aff2: Math.floor(Math.random() * max) },
+    { aff3: Math.floor(Math.random() * max) },
+    { aff4: Math.floor(Math.random() * max) },
+    { aff5: Math.floor(Math.random() * max) },
+  ],
+  aff_breakdown_initial_sales: [
+    { aff1: Math.floor(Math.random() * max) },
+    { aff2: Math.floor(Math.random() * max) },
+    { aff3: Math.floor(Math.random() * max) },
+    { aff4: Math.floor(Math.random() * max) },
+    { aff5: Math.floor(Math.random() * max) },
+  ],
+  aff_breakdown_active_subs: [
+    { aff1: Math.floor(Math.random() * max) },
+    { aff2: Math.floor(Math.random() * max) },
+    { aff3: Math.floor(Math.random() * max) },
+    { aff4: Math.floor(Math.random() * max) },
+    { aff5: Math.floor(Math.random() * max) },
+  ],
 };
 
 router.get("/", function (req, res, next) {
