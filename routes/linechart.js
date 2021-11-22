@@ -148,6 +148,12 @@ var sampleResponse = {
       value: Math.floor(Math.random() * max),
     },
   ],
+  total_sales_card: {
+    initial_sale: 133,
+    initial_sale_amount: 24618,
+    upsells: 59,
+    upsells_amount: 2189,
+  },
 };
 
 router.get("/", function (req, res, next) {
