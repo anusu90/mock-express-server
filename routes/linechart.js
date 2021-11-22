@@ -83,25 +83,70 @@ var sampleResponse = {
     },
   ],
   aff_breakdown_upsells: [
-    { aff1: Math.floor(Math.random() * max) },
-    { aff2: Math.floor(Math.random() * max) },
-    { aff3: Math.floor(Math.random() * max) },
-    { aff4: Math.floor(Math.random() * max) },
-    { aff5: Math.floor(Math.random() * max) },
+    {
+      name: "aff1",
+      value: Math.floor(Math.random() * max),
+    },
+    {
+      name: "aff2",
+      value: Math.floor(Math.random() * max),
+    },
+    {
+      name: "aff3",
+      value: Math.floor(Math.random() * max),
+    },
+    {
+      name: "aff4",
+      value: Math.floor(Math.random() * max),
+    },
+    {
+      name: "aff5",
+      value: Math.floor(Math.random() * max),
+    },
   ],
   aff_breakdown_initial_sales: [
-    { aff1: Math.floor(Math.random() * max) },
-    { aff2: Math.floor(Math.random() * max) },
-    { aff3: Math.floor(Math.random() * max) },
-    { aff4: Math.floor(Math.random() * max) },
-    { aff5: Math.floor(Math.random() * max) },
+    {
+      name: "aff1",
+      value: Math.floor(Math.random() * max),
+    },
+    {
+      name: "aff2",
+      value: Math.floor(Math.random() * max),
+    },
+    {
+      name: "aff3",
+      value: Math.floor(Math.random() * max),
+    },
+    {
+      name: "aff4",
+      value: Math.floor(Math.random() * max),
+    },
+    {
+      name: "aff5",
+      value: Math.floor(Math.random() * max),
+    },
   ],
   aff_breakdown_active_subs: [
-    { aff1: Math.floor(Math.random() * max) },
-    { aff2: Math.floor(Math.random() * max) },
-    { aff3: Math.floor(Math.random() * max) },
-    { aff4: Math.floor(Math.random() * max) },
-    { aff5: Math.floor(Math.random() * max) },
+    {
+      name: "aff1",
+      value: Math.floor(Math.random() * max),
+    },
+    {
+      name: "aff2",
+      value: Math.floor(Math.random() * max),
+    },
+    {
+      name: "aff3",
+      value: Math.floor(Math.random() * max),
+    },
+    {
+      name: "aff4",
+      value: Math.floor(Math.random() * max),
+    },
+    {
+      name: "aff5",
+      value: Math.floor(Math.random() * max),
+    },
   ],
 };
 
